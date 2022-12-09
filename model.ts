@@ -37,6 +37,7 @@ const model1 = createCounter();
 const model2 = createCounter();
 const model3 = createCounter();
 
+// Bug
 console.log(
   "[Custom factory sids]:",
   model1.$count.sid,
